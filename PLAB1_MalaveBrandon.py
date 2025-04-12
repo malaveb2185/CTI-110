@@ -1,7 +1,18 @@
-#Brandon Malave 
+#Brandon Malave
+#04/12/2025
 #CTI-110
-#PLAB1
-#04/04/2025
-first_name= input ("Enter your first name: ")
-last_name= input ("Enter your last name: ")
-print(f"Hello, {first_name} {last_name}! Welcome to CTI-110")
+#Using Math Expressions
+import math 
+
+#Get radius user
+radius = float(input("Enter the radius: "))
+
+#Calculate cicumfrance, diameter, area
+cir = 2 * math.pi  * radius
+diam = 2 * radius
+area = math.pi * (radius ** 2)
+
+#Display results
+print (f"The diamter of the circle is {diam:.1f}")
+print (f"The circumference of the circle is {cir:.2f}")
+print (f"The area of the circle is {area:.3f}")
